@@ -1,2 +1,2 @@
 #!/bin/sh
-for file in `find src/ -name "*.md"`; do echo $file; done;
+find log/ -name "*.md" -exec echo {} \;
